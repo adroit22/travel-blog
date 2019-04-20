@@ -1,14 +1,20 @@
 # My Travel Diaries Blog
 
-The blog recording my travel experiences outside US created using React + Bootstrap + HTML + CSS.
-The project demo can be seen at - 
+The blogs are records of my travel experiences outside US created using React + Bootstrap + HTML + CSS.
+The project's screen cast video can be seen at - 
 https://screencast-o-matic.com/watch/cqfq3TZtHP.
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
-## Available Scripts
+## Steps to make the code work
 
-'cd' into the project directory, you can run:
+The GET request made to the Newsapi need an apiKey. The apiKey for my account is submitted with assignment on Blackboard. 
+
+> Copy the apiKey and paste it inside the src/News.js file at line 19.
+> After pasting the apiKey in side the url String inside the fetch method, the url would be something like -
+"https://newsapi.org/v2/top-headlines?sources=bbc-news&apiKey=##########"
+
+Once the apiKey has been added to News.js , go back to the project folder and then do - 
 
 ### `npm start`
 
