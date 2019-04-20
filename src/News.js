@@ -14,7 +14,9 @@ class News extends Component {
 
   componentDidMount() {
 	  this.interval = setInterval(() => this.setState({ time: Date.now() }), 5000);
-    fetch("https://newsapi.org/v2/top-headlines?sources=bbc-news&apiKey=035cd6d8de3742d9a068d3980cd5d663")
+	    //Add the API key submitted on blackboard inside the fetch method below.
+		//The key should be added in the end after the ".....apiKey="
+    fetch("https://newsapi.org/v2/top-headlines?sources=bbc-news&apiKey=")
       .then(res => res.json())
       .then(
         (result) => {
