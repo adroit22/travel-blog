@@ -11,7 +11,7 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 The GET request made to the Newsapi need an apiKey. The apiKey for my account is submitted with assignment on Blackboard. 
 
 > Copy the apiKey and paste it inside the src/News.js file at line 19.
-> After pasting the apiKey in side the url String inside the fetch method, the url would be something like -
+> After pasting the apiKey inside the url String of fetch method, the url would be something like -
 "https://newsapi.org/v2/top-headlines?sources=bbc-news&apiKey=##########"
 
 Once the apiKey has been added to News.js , go back to the project folder and then do - 
